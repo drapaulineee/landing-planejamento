@@ -1,80 +1,161 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Planejamento Previdenciário</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planejamento Previdenciário Inteligente</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f2f5;
+      font-family: 'Inter', sans-serif;
+      background-color: #fdfaf5;
       margin: 0;
       padding: 0;
+      color: #333;
     }
-    .container {
-      max-width: 600px;
-      margin: 40px auto;
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    header {
       text-align: center;
+      padding: 2rem 1rem 1rem;
+      background-color: #fff6ed;
     }
-    img {
+    header img {
       width: 150px;
       height: 150px;
-      object-fit: cover;
       border-radius: 50%;
-      margin-bottom: 20px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
     h1 {
-      color: #333;
-      margin-bottom: 15px;
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #1e2a38;
     }
-    p {
-      color: #555;
-      font-size: 16px;
-      margin-bottom: 20px;
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #e86a33;
+      margin-top: 2rem;
     }
-    .depoimento {
-      font-style: italic;
-      color: #444;
-      background-color: #f9f9f9;
-      padding: 15px;
-      border-radius: 8px;
-      margin: 20px 0;
+    .section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem;
     }
-    .preco {
-      font-size: 18px;
+    .highlight {
+      color: #e86a33;
       font-weight: bold;
-      color: #222;
-      margin-bottom: 20px;
+    }
+    .investment {
+      font-size: 1.2rem;
+      background: #f0f0f0;
+      padding: 1rem;
+      border-radius: 12px;
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
     }
     .btn {
-      background-color: #25d366;
+      background-color: #1e2a38;
       color: white;
-      padding: 15px 25px;
-      border-radius: 5px;
+      padding: 1rem;
+      text-align: center;
       text-decoration: none;
-      font-size: 16px;
-      font-weight: bold;
+      border-radius: 10px;
+      font-weight: 600;
       transition: background 0.3s;
     }
     .btn:hover {
-      background-color: #1ebd57;
+      background-color: #e86a33;
+    }
+    .testimonial {
+      background: #fff;
+      border-left: 5px solid #e86a33;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      font-style: italic;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem 1rem;
+      color: #777;
+      margin-top: 2rem;
+      background: #f7f7f7;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="foto-perfil.jpg" alt="Consultoria Previdenciária">
-    <h1>Garanta sua melhor aposentadoria!</h1>
-    <p>Você sabe quando pode se aposentar e quanto vai receber? Eu analiso todo o seu histórico do INSS e te entrego um plano claro e seguro para conquistar o melhor benefício possível.</p>
-    <div class="depoimento">
-      “Com o planejamento, a Ana descobriu que poderia economizar mais de R$ 500 mil em contribuições e ainda se aposentar com um valor maior. Tudo isso com orientações que ela nunca tinha recebido antes.”
+
+  <header>
+    <!-- Substitua o link abaixo pela URL da sua foto no GitHub -->
+    <img src="https://raw.githubusercontent.com/Pauline654/planejamento-previdenciario/main/foto-perfil.jpg.jpg" 
+         alt="Dra. Pauline Rodrigues">
+    <h1>Planejamento Previdenciário Inteligente</h1>
+    <p>Com a Dra. Pauline Rodrigues</p>
+  </header>
+
+  <div class="section">
+    <p>
+      Você sabia que a maioria das pessoas descobre que poderia ter se aposentado melhor 
+      <span class="highlight">somente quando já é tarde demais</span>?  
+      Meu trabalho é garantir que isso não aconteça com você.
+    </p>
+
+    <p>
+      Como advogada especialista em Direito Previdenciário, ajudo trabalhadores, autônomos e MEIs a terem
+      <span class="highlight">segurança e tranquilidade no futuro</span>, com estratégias personalizadas para cada situação.
+    </p>
+
+    <h2>O que você recebe:</h2>
+    <ul>
+      <li>Análise completa da sua situação no INSS</li>
+      <li>Plano de ação para antecipar ou melhorar sua aposentadoria</li>
+      <li>Consultoria individualizada comigo, Dra. Pauline Rodrigues</li>
+    </ul>
+
+    <div class="investment">
+      <p><strong>Investimento:</strong></p>
+      <p>R$500 à vista ou 10x de R$57 no cartão</p>
     </div>
-    <p class="preco">Oferta especial: R$400 ou 10x R$46 SOMENTE até 15/05</p>
-    <a class="btn" href="https://wa.me/5565999555538" target="_blank">Quero meu planejamento!</a>
+
+    <div class="btn-container">
+      <a class="btn" href="https://wa.me/55659996453417" target="_blank">💬 Falar no WhatsApp</a>
+      <a class="btn" href="https://forms.gle/36SMFPCtEQ9VQVSS8" target="_blank">📋 Consultoria Expressa para MEI</a>
+      <a class="btn" href="https://forms.gle/36SMFPCtEQ9VQVSS8" target="_blank">📘 Baixar eBook gratuito</a>
+    </div>
+
+    <h2>O que dizem meus clientes:</h2>
+
+    <div class="testimonial">
+      "Eu achava que ia me aposentar só com 1 salário mínimo. A Dra. Pauline me mostrou como melhorar e hoje tenho muito mais clareza!"  
+      <br>— <strong>Maria S.</strong>
+    </div>
+
+    <div class="testimonial">
+      "Consegui organizar minhas contribuições como MEI e agora sei exatamente quando e como vou me aposentar."  
+      <br>— <strong>Carlos A.</strong>
+    </div>
+
+    <div class="testimonial">
+      "O planejamento previdenciário foi o melhor investimento que fiz para meu futuro. Recomendo demais!"  
+      <br>— <strong>Ana P.</strong>
+    </div>
+
+    <p style="margin-top:2rem;">
+      Você já contribuiu por anos, mas isso não garante sua aposentadoria.  
+      <strong>Não espere o INSS te surpreender. Planeje agora.</strong>
+    </p>
   </div>
+
+  <footer>
+    © 2025 Dra. Pauline Rodrigues — Todos os direitos reservados.
+  </footer>
+
 </body>
 </html>
